@@ -1,0 +1,361 @@
+
+@font-face {
+    font-family: IRANSans;
+    src: url('../font/IRANSans.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'fontawesome';
+    src: url("../font/fa-solid-900.svg");
+    format('eot'),url('../font/fa-solid-900.eot'),
+    format('ttf'),url('../font/fa-solid-900.ttf'),
+    format('woff'),url('../font/fa-solid-900.woff'),
+    format('woff2'),url('../font/fa-solid-900.woff2'),
+}
+
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('../font/IranNastaliq.eot?#iefix') format('embedded-opentype'),
+    url('../font/IranNastaliq.woff') format('woff'),
+    url('../font/IranNastaliq.ttf')  format('truetype'),
+    url('../font/IranNastaliq.svg#IranNastaliq') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container-fluid{
+    margin:0 !important;
+    padding: 0 !important;
+}
+* ul{
+    list-style-type: none;
+}
+header{
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+}
+body{
+    padding: 0;!important;
+    font-family: IRANSans;
+    direction: rtl;
+    box-sizing: border-box;
+    margin: 0;!important;
+}
+.top-header{
+    height: 30px;
+    background: #e73f36;
+    width: 100%;
+}
+.top-header a{
+    padding: 2px;
+}
+header .top-header i{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px;
+
+}
+.top-header-tell{
+   float: right;
+    color: #ffffff;
+
+}
+.pic{
+    height: 10%;
+    width: 100%;
+    z-index: -99999;
+    position: absolute;
+    top: -98px;
+
+
+}
+
+/*-------------------------start menu--------------------------*/
+.navbar-custom{
+    background: #000000;
+    opacity: 0.5;
+    min-width: 100%;
+    height: 80px;
+    top: -10px;
+    direction: rtl;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.6);
+}
+.navbar-custom ul li {
+    color: #FFFFFF;
+    padding: 0 16px;
+    font-size: 18px;
+    float: right;
+    display: inline;
+
+}
+
+.navbar-custom ul li a{
+    color: #FFFFFF;
+    padding: 14px 16px;
+    font-size: 18px;
+}
+
+.navbar-custom ul li a:hover {
+    border-bottom: 3px solid #e73f36;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/*-------------------------end menu----------------------------*/
+
+.owl-carousel{
+    margin: 0 auto;
+    direction: ltr;
+    width: 500px;
+    text-align: center;
+    top: -50px;
+}
+.card img{
+    width:300px;
+    height: 170px;
+}
+.owl-carousel .owl-nav>button{
+    background: none;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+}
+.owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+}
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+}
+
+.owl-carousel .item .card{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    display: inline-block;
+    border: none;
+}
+.card-body h5{
+    color:#e73f36 ;
+    text-align: center;
+}
+.card-body p{
+    text-align: justify;
+}
+
+.gray{
+    background-color: #3e454d;
+    min-width: 100%;
+    min-height: 300px;
+    direction: ltr;
+}
+.gray-pic{
+    width: 500px;
+    height: 280px;
+    padding-top: 20px;
+    overflow: hidden;
+
+}
+.gray-text {
+    width: 500px;
+    height: 280px;
+    padding-top: 20px;
+    color: #ffffff;
+    text-align: justify;
+    overflow: hidden;
+}
+.white{
+    min-width: 100%;
+    min-height: 300px;
+}
+.white-pic{
+    width: 500px;
+    height: 280px;
+    padding-top: 20px;
+    float: right;
+    overflow: hidden;
+}
+.white-text{
+    width: 500px;
+    height: 280px;
+    padding-top: 20px;
+    float: left;
+    color: #000000;
+    text-align: justify;
+    overflow: hidden;
+}
+.red{
+    background-color: #e73f36;
+    min-width: 100%;
+    min-height: 300px;
+    direction: ltr;
+}
+.red-pic{
+    width: 500px;
+    height: 280px;
+    direction: ltr;
+    padding-top: 20px;
+}
+.red-text{
+    width: 500px;
+    height: 280px;
+    padding-top: 20px;
+    float: right;
+    color: #ffffff;
+    text-align: justify;
+    overflow: hidden;
+}
+footer{
+    background-color: #3e454d;
+    min-width: 100%;
+    min-height: 280px;
+}
+.end-footer{
+    background-color: #787b85;
+    min-width: 100%;
+    height: 70px;
+}
+.end-footer h6{
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+.nav navbar-nav li a{
+    color: #ffffff;
+
+}
+
+/*----------------------------------------------------------------------footer-------------------------------------------*/
+.foo1 {
+    float: right;
+    text-align: right;
+    width: 200px;
+    padding: 20px 0;
+    height: 300px;
+
+}
+.foo1 ul li a{
+    color: #FFFFFF;
+}
+.foo2{
+    float: right;
+    width: 200px;
+    padding: 20px 0;
+    height: 300px;
+    text-align: right;
+
+}
+.foo3{
+    float: left;
+    text-align: right;
+    width: 200px;
+    height: 300px;
+    padding: 10px 0;
+}
+.foo1 ,.foo2 ,.foo3 > h5{
+     color: #e73f36;
+ }
+.foo1 ,.foo2 ,.foo3 > li,a,i{
+    font-size: 17px;
+    padding: 7px;
+}
+footer{
+    clear: both;
+    min-height: 300px;
+}
+.form{
+    background:#e73f36;
+    max-width: 220px;
+    position: absolute;
+    top: 150px;
+}
+.form p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.form{
+    text-align: center;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.form form{
+    margin-top: 15px;
+}
+.form input{
+    margin: 5px;
+    padding: 5px 0;
+}
+.form a{
+    background-color: #3e454d;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+.form a span{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 1px 30px;
+}
+.main-text{
+    direction: ltr;
+    float: left;
+}
+.main-text p{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'IranNastaliq';
+    font-weight: 600;
+    color: #6d090b;
+    width: 400px;
+    padding: 5px;
+    margin-left: 60px;
+}
+.main-text a{
+    font-size: 15px;
+    padding: 2px 60px;
+    border: 5px solid #6d090b;
+    color: #6d090b;
+    font-weight: 600;
+}
+@media screen and (max-width: 480px){
+    .main-text p{
+        width: 300px;
+        font-size: 31px;
+        font-weight: 900;
+        float: left;
+        direction: ltr;
+        position: absolute;
+        top: 140px;
+        left: -60px;
+
+    }
+    .form{
+
+        position: absolute;
+        top: 250px;
+        left: 40px;
+    }
+    .main-text a{
+        font-size: 15px;
+        border: 2px solid #6d090b;
+        color: #6d090b;
+        font-weight: 800;
+    }
+
+header .top-header i{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px;
+
+}
+    .navbar-custom{
+        height: 120px;
+    }
+    .pic{
+        top: -140px;
+    }
+}
